@@ -1,6 +1,10 @@
 # LauncherDemo
 Simple launcher demo
 
+README: http://frannyzhao.github.io/Android/WorkExperience/launcher.html
+
+PS:
+
 因为没有权限，这个demo中卸载和停止都无法执行成功；
 
 
