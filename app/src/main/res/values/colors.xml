@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="allapps_container_background">#40333333</color>
+    <color name="pop_window_text_color">#555555</color>
+    <color name="app_pop_menu_title_background">#CC1F2228</color>
 </resources>

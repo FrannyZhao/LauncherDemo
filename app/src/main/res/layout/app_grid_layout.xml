@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="220dp"
-    android:layout_height="220dp"
-    android:padding="30dp"
-    android:background="@android:color/transparent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="@dimen/app_grid_width"
+    android:layout_height="@dimen/app_grid_height"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/app_grid_padding">
+
     <ImageView
         android:id="@+id/app_icon"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="@dimen/app_icon_width"
+        android:layout_height="@dimen/app_icon_height"
         android:src="@drawable/ic_launcher_background"
-        android:layout_centerHorizontal="true"
-        />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/app_name_margin_top"
         android:text="@string/app_name"
-        android:textSize="20dp"
-        android:textColor="@android:color/white"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/app_icon"
-        android:layout_marginTop="20dp"/>
-</RelativeLayout>
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/app_name_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

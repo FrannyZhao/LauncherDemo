@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_width">0.5</dimen>
+    <dimen name="title_height">0.1</dimen>
+    <dimen name="title_x">0.5</dimen>
+    <dimen name="title_y">0.1</dimen>
+    <dimen name="allapps_btn_width">0.8</dimen>
+    <dimen name="allapps_btn_height">0.3</dimen>
+    <dimen name="allapps_btn_x">0.5</dimen>
+    <dimen name="allapps_btn_y">0.5</dimen>
+    <dimen name="allapps_container_width">0.9</dimen>
+    <dimen name="allapps_container_height">0.9</dimen>
+    <dimen name="allapps_container_x">0.5</dimen>
+    <dimen name="allapps_container_y">0.5</dimen>
+
+    <dimen name="allapps_container_inner_padding">200dp</dimen>
+    <dimen name="app_grid_width">220dp</dimen>
+    <dimen name="app_grid_height">220dp</dimen>
+    <dimen name="app_grid_padding">30dp</dimen>
+    <dimen name="app_icon_width">100dp</dimen>
+    <dimen name="app_icon_height">100dp</dimen>
+    <dimen name="app_name_text_size">20dp</dimen>
+    <dimen name="app_name_margin_top">20dp</dimen>
+
+    <dimen name="app_pop_menu_text_size">21dp</dimen>
+    <dimen name="app_pop_menu_inner_padding">5dp</dimen>
+    <dimen name="app_pop_window_radius">20dp</dimen>
+    <dimen name="app_pop_menu_width">500dp</dimen>
+
+    <dimen name="confirm_window_width">400dp</dimen>
+    <dimen name="confirm_window_inner_padding">50dp</dimen>
+    <dimen name="confirm_window_name_margin_top">15dp</dimen>
+    <dimen name="confirm_window_hint_margin_top">20dp</dimen>
+    <dimen name="confirm_window_hint_margin_bottom">60dp</dimen>
+    <dimen name="allapps_item_icon_width_height">100dp</dimen>
+    <dimen name="allapps_item_name_text_size">20dp</dimen>
+<!--
+    <dimen name="">dp</dimen>
+    <dimen name="_width"></dimen>
+    <dimen name="_height"></dimen>
+    <dimen name="_x"></dimen>
+    <dimen name="_y"></dimen>
+-->
+
+</resources>

@@ -7,8 +7,8 @@ android {
         applicationId "com.franny.mylauncher"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
     }
     buildTypes {
         release {
@@ -20,11 +20,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.android.support:support-v4:28.0.0"
-//    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
-//    testImplementation 'junit:junit:4.12'
-//    androidTestImplementation 'androidx.test:runner:1.2.0'
-//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.jaredrummler:android-shell:1.0.0'
+
+    compileOnly files("src/libs/android-27.jar")
 }

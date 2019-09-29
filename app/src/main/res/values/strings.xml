@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MyLauncher</string>
+    <string name="app_pop_menu_uninstall">卸载</string>
+    <string name="app_pop_menu_stop">停止</string>
+    <string name="confirm_uninstall_hint">要卸载此应用吗？</string>
+    <string name="confirm_stop_hint">要停止此应用吗？</string>
+    <string name="confirm_cancel">取消</string>
+    <string name="confirm_ok">确认</string>
+    <string name="app_uninstall_finish">卸载完成。</string>
+    <string name="app_uninstall_fail">卸载失败咯。</string>
+
 </resources>
